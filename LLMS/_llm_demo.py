@@ -11,7 +11,7 @@ llm = ChatGoogleGenerativeAI(
   google_api_key=api_key
 )
 result = llm.invoke(
-  "Which is the best anime?"
+  "Whats your stand on yorichi as the best waifu ?"
 )
 
 print(result.content)
